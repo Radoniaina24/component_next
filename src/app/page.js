@@ -1,5 +1,5 @@
-import NavLink from '@/components/NavLink/NavLink';
+import CompanyLayout from './(company)/layout';
 
 export default function Home() {
-  return <NavLink href='/sdds'>Ajouter</NavLink>;
+  return <CompanyLayout />;
 }

@@ -1,6 +1,10 @@
+'use client';
 import NavLink from '@/components/NavLink/NavLink';
+import { useRouter } from 'next/navigation';
 
 const CompanyLayout = ({ children }) => {
+  const router = useRouter();
+  router.push('/about');
   return (
     <section className='py-24'>
       <div className='container flex'>
